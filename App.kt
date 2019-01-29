@@ -5,6 +5,8 @@ import android.content.Context
 import android.content.res.Configuration
 import com.util.LocaleManager // May change according to LocaleManager class localization in your project
 
+// Original work : https://gist.github.com/Jasonlhy/f6d1211c4f848a3f685bd2d28c6e2eb5
+
 class App : Application(){
 
     override fun onCreate() {
