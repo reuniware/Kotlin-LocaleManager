@@ -12,6 +12,8 @@ import android.annotation.SuppressLint
 Thanks to this Kotlin class you can force the Locale in any activity in your application
 Example of call from an activity : LocaleManager.setNewLocale(this@YourActivityName, "en")
 Don't forget to override attacheBaseContext() and onConfigurationChanged() in App.kt class
+
+Original work : https://gist.github.com/Jasonlhy/f6d1211c4f848a3f685bd2d28c6e2eb5
 */
 
 class LocaleManager {
