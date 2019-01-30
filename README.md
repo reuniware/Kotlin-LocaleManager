@@ -6,7 +6,7 @@ In order to user LocaleManager, don't forget to declare the 2 necessary override
 Original project :
 https://gist.github.com/Jasonlhy/f6d1211c4f848a3f685bd2d28c6e2eb5
 
-This class will help you to arbitrary define the locale used by an Activity in your application.
+This class will help you to define arbitrary the locale used by an Activity in your application.
 
 For example, you have to call **LocaleManager.setNewLocale(this@YourActivityName, "en")** in the first activity of your application and then every activity will be set to the Locale "en"...
 
